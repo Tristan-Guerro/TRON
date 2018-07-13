@@ -114,7 +114,6 @@ public class Lightcycle extends Mobile implements ISprite{
 
     @Override
 	public final void die() {
-        this.setDirection(Direction.NOTHING);
         super.die();
         
         if ( getLightcycleColor() == PlayerColor.RED) {
